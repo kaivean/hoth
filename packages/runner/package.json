@@ -1,0 +1,27 @@
+{
+  "name": "@hoth/runner",
+  "version": "1.0.0",
+  "description": "runner with timeout",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "NODE_ENV=development jest"
+  },
+  "keywords": [
+    "runner"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchfe/hoth.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+
+  }
+}
